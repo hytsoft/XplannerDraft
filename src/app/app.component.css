@@ -1,0 +1,19 @@
+.row-h div{
+    height: 85vh;
+}
+
+.row-b div{
+    height: 12vh;
+}
+
+.row div{
+    background-color: whitesmoke ;
+    border: 1px solid lightgrey;
+}
+
+/* div{
+    border: 2px solid;
+    width: 100%;
+    resize: horizontal;
+    overflow: auto;
+} */

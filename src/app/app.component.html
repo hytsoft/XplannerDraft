@@ -1,0 +1,59 @@
+Header
+
+<div class="split-example" style="height: 800px;">
+  <split direction = "horizontal">
+          <split-area size="20">
+                  <split direction="vertical">
+                      <split-area>
+                        <p>Elements</p>
+                        <app-elements></app-elements>
+                      </split-area>
+                  </split>
+              </split-area>
+              <split-area size="60" >
+                      <split direction="vertical" >
+                          <split-area size="80" (treeDrop)="onDrop($event)" [treeAllowDrop]="true">
+                            <p>Canvas</p>
+                          </split-area>
+                          <split-area size="20">
+                            <p>Experiment Sequence</p>
+                          </split-area>
+                      </split>
+                  </split-area>
+              <split-area size="20">
+                  <split direction="vertical">
+                      <split-area size="50">
+                        <p>Properties</p>
+                      </split-area>
+                      <split-area size="50">
+                        <p>Protocol</p>
+                      </split-area>
+                  </split>
+              </split-area>
+  </split>
+  </div>
+
+<!-- <div class="container-fluid">
+  <div class="row row-h">
+    <div class="col-md-2">
+      <p>Elements</p>
+      <app-elements></app-elements>
+    </div>
+    <div class="col-md-8" (treeDrop)="onDrop($event)" [treeAllowDrop]="true">
+        <p>Canvas</p>
+    </div>
+    <div class="col-md-2">
+      <div class="row h-50">
+        <p>Properties</p>
+      </div>
+      <div class="row h-50">
+        <p>Protocol</p>
+      </div>
+    </div>
+  </div>
+  <div class="row row-b">
+    <div class="col-md">
+        <p>Experiment Sequence</p>
+    </div>
+  </div>
+</div> -->
